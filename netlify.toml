@@ -1,7 +1,6 @@
 [build]
-  base = "holyland-models"
   publish = "holyland-models/dist"
-  command = "pnpm run build"
+  command = "cd holyland-models && pnpm run build"
 
 [build.environment]
   NODE_VERSION = "18"
