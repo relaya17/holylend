@@ -1,69 +1,119 @@
-# React + TypeScript + Vite
+# ארץ הקודש דוגמנות - Holyland Models
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+אתר רשמי של סוכנות דוגמנות ישראלית המחברת בין כישרונות ישראלים לעולם האופנה.
 
-Currently, two official plugins are available:
+## 🌟 אודות הפרויקט
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+פרויקט זה הוא אתר אינטראקטיבי המיועד לסוכנות דוגמנות ישראלית. האתר מציג:
+- **מודלים ודוגמנים** - גלריית תמונות ופרופילים של המודלים
+- **שירותים לסוכנויות** - מידע על שיתופי פעולה עם סוכנויות אופנה
+- **צור קשר** - טופס יצירת קשר ופרטי התקשרות
+- **תמיכה בשפות** - עברית ואנגלית
 
-## Expanding the ESLint configuration
+## 🚀 טכנולוגיות
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React 19** - ספריית UI מודרנית
+- **TypeScript** - טיפוסים חזקים לפיתוח בטוח
+- **Vite** - כלי בנייה מהיר
+- **Bootstrap 5** - עיצוב רספונסיבי
+- **React Router** - ניווט בין דפים
+- **i18next** - תמיכה ברב-שפות (עברית/אנגלית)
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📦 התקנה והרצה
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+### דרישות מקדימות
+- Node.js (גרסה 18 ומעלה)
+- pnpm (מומלץ) או npm
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### התקנה
+```bash
+# התקנת תלויות
+pnpm install
+
+# הרצת הפרויקט במצב פיתוח
+pnpm dev
+
+# בניית הפרויקט לייצור
+pnpm build
+
+# תצוגה מקדימה של הבנייה
+pnpm preview
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📁 מבנה הפרויקט
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
 ```
+src/
+├── components/          # קומפוננטות משותפות
+│   ├── Header.tsx      # כותרת האתר
+│   ├── Footer.tsx      # כותרת תחתונה
+│   └── FloatingAccessibility.tsx  # נגישות
+├── pages/              # דפי האתר
+│   ├── Home.tsx        # דף הבית
+│   ├── Models.tsx      # גלריית מודלים
+│   ├── ModelProfile.tsx # פרופיל מודל
+│   ├── ForAgencies.tsx # שירותים לסוכנויות
+│   └── Contact.tsx     # צור קשר
+├── i18n/               # קבצי תרגום
+├── types/              # הגדרות TypeScript
+└── assets/             # משאבים (תמונות, אייקונים)
+```
+
+## 🌐 תמיכה בשפות
+
+האתר תומך בשתי שפות:
+- **עברית** - שפת ברירת המחדל
+- **אנגלית** - לתיירים ולשווקים בינלאומיים
+
+החלפת שפה מתבצעת דרך כפתור נגישות בתחתית האתר.
+
+## 🎨 עיצוב ונגישות
+
+- **עיצוב רספונסיבי** - מותאם לכל המכשירים
+- **נגישות מלאה** - תמיכה בקוראי מסך וניווט במקלדת
+- **עיצוב מודרני** - שימוש ב-Bootstrap 5 עם התאמות מותאמות
+
+## 📸 גלריית תמונות
+
+האתר כולל גלריית תמונות של המודלים עם:
+- תמונות איכותיות
+- מידע על המודלים
+- אפשרות ליצירת קשר ישיר
+
+## 📞 יצירת קשר
+
+דף "צור קשר" כולל:
+- טופס יצירת קשר
+- פרטי התקשרות
+- שעות פעילות
+- מיקום הסוכנות
+
+## 🔧 פיתוח
+
+### בדיקת קוד
+```bash
+# בדיקת ESLint
+pnpm lint
+```
+
+### בנייה לייצור
+```bash
+# בניית הפרויקט
+pnpm build
+
+# תצוגה מקדימה
+pnpm preview
+```
+
+## 📄 רישיון
+
+MIT License - ראה קובץ LICENSE לפרטים נוספים.
+
+## 👥 צוות הפיתוח
+
+- **ארץ הקודש דוגמנות** - סוכנות הדוגמנות
+- **צוות הפיתוח** - פיתוח האתר והתחזוקה
+
+---
+
+**ארץ הקודש דוגמנות** - חיבור בין כישרונות ישראלים לעולם האופנה 🌟
