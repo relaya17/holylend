@@ -1,9 +1,0 @@
-[build]
-  base = "holyland-models"
-  command = "pnpm run build"
-  publish = "holyland-models/dist"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
