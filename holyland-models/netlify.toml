@@ -9,7 +9,7 @@
   # הגדרת Node.js גרסה
   NODE_VERSION = "18"
 
-# הגדרות SPA (Single Page Application)
+# הגדרות SPA (Single Page Application) - חשוב מאוד!
 [[redirects]]
   from = "/*"
   to = "/index.html"
