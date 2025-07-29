@@ -154,7 +154,7 @@ const Models: React.FC = () => {
                       style={{ 
                         height: '400px', 
                         objectFit: 'cover', 
-                        objectPosition: 'center 20%',
+                        objectPosition: 'center top',
                         transition: 'transform 0.3s ease'
                       }}
                     />

@@ -108,7 +108,7 @@ const ModelProfile: React.FC = () => {
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover',
-                objectPosition: 'center 20%'
+                objectPosition: 'center top'
               }}
             />
             <div style={{
@@ -388,7 +388,7 @@ const ModelProfile: React.FC = () => {
                   src="/images/foto2.jpeg" 
                   alt="Avichai Lankri - Portfolio 1" 
                   className="card-img-top"
-                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center 15%' }}
+                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center top' }}
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
                     target.style.display = 'none';
@@ -420,7 +420,7 @@ const ModelProfile: React.FC = () => {
                   src="/images/foto3.jpeg" 
                   alt="Avichai Lankri - Portfolio 2" 
                   className="card-img-top"
-                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center 10%' }}
+                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center top' }}
                 />
                 <div className="card-body">
                   <h6 className="card-title">Commercial Work</h6>
@@ -434,7 +434,7 @@ const ModelProfile: React.FC = () => {
                   src="/images/foto4.jpeg" 
                   alt="Avichai Lankri - Portfolio 3" 
                   className="card-img-top"
-                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center 25%' }}
+                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center top' }}
                 />
                 <div className="card-body">
                   <h6 className="card-title">Editorial Style</h6>
@@ -448,7 +448,7 @@ const ModelProfile: React.FC = () => {
                   src="/images/foto5.jpeg" 
                   alt="Avichai Lankri - Portfolio 4" 
                   className="card-img-top"
-                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center 20%' }}
+                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center top' }}
                 />
                 <div className="card-body">
                   <h6 className="card-title">Lifestyle Photography</h6>
@@ -462,7 +462,7 @@ const ModelProfile: React.FC = () => {
                   src="/images/foto6.jpeg" 
                   alt="Avichai Lankri - Portfolio 5" 
                   className="card-img-top"
-                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center 25%' }}
+                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center top' }}
                 />
                 <div className="card-body">
                   <h6 className="card-title">Professional Headshots</h6>
@@ -476,7 +476,7 @@ const ModelProfile: React.FC = () => {
                   src="/images/foto7.jpeg" 
                   alt="Avichai Lankri - Portfolio 6" 
                   className="card-img-top"
-                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center 30%' }}
+                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center top' }}
                 />
                 <div className="card-body">
                   <h6 className="card-title">Creative Concepts</h6>
@@ -490,7 +490,7 @@ const ModelProfile: React.FC = () => {
                   src="/images/foto8.jpeg" 
                   alt="Avichai Lankri - Portfolio 7" 
                   className="card-img-top"
-                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center 20%' }}
+                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center top' }}
                 />
                 <div className="card-body">
                   <h6 className="card-title">Professional Modeling</h6>
@@ -504,7 +504,7 @@ const ModelProfile: React.FC = () => {
                   src="/images/foto9.jpeg" 
                   alt="Avichai Lankri - Portfolio 8" 
                   className="card-img-top"
-                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center 25%' }}
+                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center top' }}
                 />
                 <div className="card-body">
                   <h6 className="card-title">Portfolio Collection</h6>
@@ -518,7 +518,7 @@ const ModelProfile: React.FC = () => {
                   src="/images/foto10.jpeg" 
                   alt="Avichai Lankri - Portfolio 9" 
                   className="card-img-top"
-                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center 30%' }}
+                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center top' }}
                 />
                 <div className="card-body">
                   <h6 className="card-title">Professional Portfolio</h6>
@@ -532,7 +532,7 @@ const ModelProfile: React.FC = () => {
                   src="/images/foto12.jpeg" 
                   alt="Avichai Lankri - Portfolio 10" 
                   className="card-img-top"
-                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center 20%' }}
+                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center top' }}
                 />
                 <div className="card-body">
                   <h6 className="card-title">Fashion Collection</h6>
@@ -546,7 +546,7 @@ const ModelProfile: React.FC = () => {
                   src="/images/foto13.jpeg" 
                   alt="Avichai Lankri - Portfolio 11" 
                   className="card-img-top"
-                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center 25%' }}
+                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center top' }}
                 />
                 <div className="card-body">
                   <h6 className="card-title">Editorial Collection</h6>
@@ -560,7 +560,7 @@ const ModelProfile: React.FC = () => {
                   src="/images/foto16.jpeg" 
                   alt="Avichai Lankri - Portfolio 12" 
                   className="card-img-top"
-                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center 30%' }}
+                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center top' }}
                 />
                 <div className="card-body">
                   <h6 className="card-title">Commercial Collection</h6>
@@ -574,7 +574,7 @@ const ModelProfile: React.FC = () => {
                   src="/images/foto22.jpeg" 
                   alt="Avichai Lankri - Portfolio 13" 
                   className="card-img-top"
-                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center 20%' }}
+                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center top' }}
                 />
                 <div className="card-body">
                   <h6 className="card-title">Lifestyle Collection</h6>
@@ -588,7 +588,7 @@ const ModelProfile: React.FC = () => {
                   src="/images/foto24.jpeg" 
                   alt="Avichai Lankri - Portfolio 14" 
                   className="card-img-top"
-                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center 25%' }}
+                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center top' }}
                 />
                 <div className="card-body">
                   <h6 className="card-title">Creative Collection</h6>
@@ -602,7 +602,7 @@ const ModelProfile: React.FC = () => {
                   src="/images/foto25.jpeg" 
                   alt="Avichai Lankri - Portfolio 15" 
                   className="card-img-top"
-                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center 30%' }}
+                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center top' }}
                 />
                 <div className="card-body">
                   <h6 className="card-title">Professional Collection</h6>
@@ -616,7 +616,7 @@ const ModelProfile: React.FC = () => {
                   src="/images/foto26.jpeg" 
                   alt="Avichai Lankri - Portfolio 16" 
                   className="card-img-top"
-                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center 20%' }}
+                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center top' }}
                 />
                 <div className="card-body">
                   <h6 className="card-title">Fashion Portfolio</h6>
@@ -630,7 +630,7 @@ const ModelProfile: React.FC = () => {
                   src="/images/foto27.jpeg" 
                   alt="Avichai Lankri - Portfolio 17" 
                   className="card-img-top"
-                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center 25%' }}
+                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center top' }}
                 />
                 <div className="card-body">
                   <h6 className="card-title">Editorial Portfolio</h6>
@@ -644,7 +644,7 @@ const ModelProfile: React.FC = () => {
                   src="/images/foto29.jpeg" 
                   alt="Avichai Lankri - Portfolio 18" 
                   className="card-img-top"
-                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center 30%' }}
+                  style={{ height: '300px', objectFit: 'cover', objectPosition: 'center top' }}
                 />
                 <div className="card-body">
                   <h6 className="card-title">Commercial Portfolio</h6>
