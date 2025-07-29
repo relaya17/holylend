@@ -1,0 +1,24 @@
+# קובץ robots.txt עבור ארץ הקודש דוגמנות
+# נכתב ב-1 בינואר 2024
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /internal/
+
+# Allow important pages
+Allow: /privacy.html
+Allow: /terms.html
+
+# Sitemap
+Sitemap: https://holyland-models.com/sitemap.xml
+
+# Crawl delay
+Crawl-delay: 1
+
+# הודעת זכויות יוצרים
+# © 2024 ארץ הקודש דוגמנות. כל הזכויות שמורות. 
